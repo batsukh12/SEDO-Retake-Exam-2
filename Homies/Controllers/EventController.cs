@@ -30,7 +30,7 @@ namespace Homies.Controllers
             return View(eventModel);
         }
         // check develop branch unit test 2
-        // ci pipeline check
+        // ci pipeline check2
         [HttpPost]
         public async Task<IActionResult> Add(EventFormModel eventModel)
         {
