@@ -29,7 +29,7 @@ namespace Homies.Controllers
 
             return View(eventModel);
         }
-
+        // integration test
         [HttpPost]
         public async Task<IActionResult> Add(EventFormModel eventModel)
         {
