@@ -29,7 +29,7 @@ namespace Homies.Controllers
 
             return View(eventModel);
         }
-
+        // check develop branch unit test
         [HttpPost]
         public async Task<IActionResult> Add(EventFormModel eventModel)
         {
